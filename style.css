@@ -6,3 +6,24 @@ margin-top: 18rem;}
 
 span{border-bottom:solid black ;
 }
+#w{
+    background: linear-gradient(300deg, red,orange,yellow,green,blue,purple
+    );
+    background-size: 180% 180%;
+    animation: gradient-animation 3s ease infinite;
+    font-family: 'Courier New', Courier, monospace;justify-content: center;
+    text-align: center;}
+
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  
