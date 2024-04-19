@@ -1,34 +1,29 @@
-#GAY{font-size: 3rem;
-font-family: 'Courier New', Courier, monospace;
-justify-content: center;
-text-align: center;
-margin-top: 18rem;}
-
-span{border-bottom:solid black ;
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 10s ease infinite;
 }
-#h{text-decoration: none;
-color: black;}
-#w{
-    background: linear-gradient(300deg, red,orange,yellow,green,blue,purple
-    );
-    background-size: 180% 180%;
-    animation: gradient-animation 3s ease infinite;
-    font-family: 'Courier New', Courier, monospace;justify-content: center;
-    text-align: center;
-  text-decoration: none;}
-
-  @keyframes gradient-animation {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-
-   
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
   }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.Fuck_Master69{
+  height: 100px;
+  border-radius: 50%;
+}
 
   
